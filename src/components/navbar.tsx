@@ -2,7 +2,7 @@ import { Box, Button, Flex, HStack, Link, Stack } from "@chakra-ui/react";
 import MyContainer from "./ui/container";
 import { Avatar } from "./ui/avatar";
 import { siteConfig } from "@/lib/configs/siteConfig";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import {
   IoBriefcaseOutline,
