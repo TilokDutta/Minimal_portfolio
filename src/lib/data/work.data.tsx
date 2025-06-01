@@ -11,8 +11,8 @@ export const worksData: Work[] = [
     company: 'Code Crafters',
     role:'Deputy Secretary',
     deliverable: [
-      'Developed a web application to manage the company’s inventory and sales.',
-      'Implemented a barcode scanner to track inventory.',
+      'Led two hackathons and organised five+ guest lectures, promoting a strong coding culture within the IITM BS degree community.',
+      'Actively encouraged student participation in competitive programming and coding events.',
     ],
     fromDate: '01-2024',
     toDate: '12-2024',

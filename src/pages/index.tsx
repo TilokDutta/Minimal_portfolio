@@ -286,23 +286,40 @@ const Work = () =>{
 const Contact = () =>{
   return (
     <Stack gap={6} marginBottom={10} id="contact">
-      <Heading as={'h2'} fontSize={{ base: 'xl', md: '2xl' }} color={'brand'}>
+      <Heading as={"h2"} fontSize={{ base: "xl", md: "2xl" }} color={"brand"}>
         Contact
       </Heading>
-      <Box borderWidth={'1px'} p={5} borderRadius={'lg'} borderColor={'gray.subtel'}>
-        <Text textAlign={'center'} fontSize={'md'} color={'brand.secondary'}>
-          Best way to reach me is through:{' '}
+      <Box
+        borderWidth={"1px"}
+        p={5}
+        borderRadius={"lg"}
+        borderColor={"gray.subtel"}
+      >
+        <Text textAlign={"center"} fontSize={"md"} color={"brand.secondary"}>
+          Best way to reach me is through:{" "}
           <CNLink
-            _hover={{ color: 'brand' }}
-            fontWeight={'bolder'}
-            color={'brand.secondary'}
-            _focus={{ boxShadow: 'none' }}
+            _hover={{ color: "brand" }}
+            fontWeight={"bolder"}
+            color={"brand.secondary"}
+            _focus={{ boxShadow: "none" }}
             href={siteConfig.contact.emailHref}
           >
             {siteConfig.contact.email}
           </CNLink>
+          <Text pt={2}>
+            Or Contact me On :
+            <CNLink
+              _hover={{ color: "brand" }}
+              fontWeight={"bolder"}
+              color={"brand.secondary"}
+              _focus={{ boxShadow: "none" }}
+              href={siteConfig.contact.phoneHref}
+            >
+              {siteConfig.contact.phone}
+            </CNLink>
+          </Text>
         </Text>
       </Box>
     </Stack>
-  )
+  );
 }
