@@ -23,10 +23,4 @@ export const projectsData: Projects[] = [
       'YC DIRECTORY is a platform to publish your startup to the world. You can see all the recent published startups in details. It helps you to grow your startup at its initial stage. ',
     href: 'https://yc-directory-one-puce.vercel.app/',
   },
-  {
-    title: 'Portfolio Website',
-    description:
-      'A personal portfolio website showcasing projects, skills, and experience with a modern design.',
-    href: '#',
-  },
 ]
